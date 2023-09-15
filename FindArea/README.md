@@ -6,7 +6,7 @@
 
 
 Можно скачать и импортировать библиотеку, помещая FindArea.py в директорию со своим файлом, либо скачав с PypI. В таком случае нужно поступать так:
-pip install AreaFinding==0.1
-from FindArea.FindArea import FindArea
-a = FindArea()
+pip install AreaFinding==0.1,
+from FindArea.FindArea import FindArea,
+a = FindArea(),
 print(a.triangle(6, 8, 10)) #как пример
